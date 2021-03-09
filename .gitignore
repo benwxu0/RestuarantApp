@@ -1,0 +1,11 @@
+# ignore directories
+__pycache__/
+.vs/
+/files/logs/
+.idea/
+backups/
+venv/
+# ignore csv
+.csv
+# ignore logs
+.log
