@@ -1,0 +1,4 @@
+
+1. run on terminal
+python data_setup.py
+python _init_.py
