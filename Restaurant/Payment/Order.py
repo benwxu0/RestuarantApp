@@ -2,7 +2,7 @@ from Restaurant.EnumTypes import OrderStatus
 class Order:
 
     def __init__(self, ID: int, tableNum: str, status: OrderStatus):
-        self.ID = ID
+        self.ID = 1
         self.tableNum = tableNum
         self.status = status
 
