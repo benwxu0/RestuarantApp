@@ -7,4 +7,4 @@ class Bill:
         self.isPaid = isPaid
 
     def createBill(self):
-        pass
+        return Bill(1,0,0,False)

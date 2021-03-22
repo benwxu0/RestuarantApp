@@ -55,7 +55,6 @@ class Menu(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('account.id'))
     user = db.relationship(Account)
 
-
 # Creating the MenuSection table
 # class MenuSection(db.Model):
 #     __tablename__ = 'menusection'
@@ -100,7 +99,7 @@ def getUserInfo(user_id):
 @app.route('/index')
 def index():
     menus = db.session.query(Menu).all()
-    return render_template('restaurant.html', menus = menus)
+    return render_template('restaurant.html', menus=menus)
 
 # Show a restaurant menu
 @app.route('/menu/<int:menu_id>/')
